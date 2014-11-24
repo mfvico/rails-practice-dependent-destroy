@@ -8,6 +8,7 @@
   </tr>
   </thead>
   <tbody>
+    <%= @prescriptions.count %>
   <% @patients.each do |patient| %>
     <tr>
       <td><%= link_to full_name(patient), patient %></td>

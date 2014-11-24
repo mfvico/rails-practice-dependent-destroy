@@ -19,5 +19,6 @@
             <td> <%= prescription.dates %> </td>
         </tr>
     <% end %>
+    <%= link_to "Delete", patient_path(@patient), method: :delete %>
     </tbody>
 </table>

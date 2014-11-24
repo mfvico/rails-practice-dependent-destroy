@@ -28,5 +28,6 @@
 	<td> <%= prescription.prescribed_by_name %> </td>
       </tr>
     <% end %>
+    <%= link_to "Delete", medication_path(@medication), method: :delete %>
   </tbody>
 </table>
